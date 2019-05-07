@@ -332,8 +332,8 @@ int Bill()
   {
     total=total+cost[i];
   }
-  float CGST=total*0.09;
-  float SGST=total*0.09;
+  float CGST=total*0.25;
+  float SGST=total*0.25;
   float total2=total+CGST+SGST;
   printf("\t\t\t   *****************JOEY'S PIZZA PVT.LTD.*****************\t\t\n");
   printf("\t\t\t   __________________________________________________________\n");
